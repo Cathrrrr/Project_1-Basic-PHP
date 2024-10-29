@@ -1,4 +1,3 @@
-//Ang return main menu diri kay matabunan sa footer
 <!DOCTYPE html>
 <html lang="en">
 <head>
