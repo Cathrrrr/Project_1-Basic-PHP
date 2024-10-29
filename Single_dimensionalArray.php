@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single-dimensional Array</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
        body {
             font: Arial, sans-serif;
@@ -115,7 +116,7 @@
             ?>
     
 
-     <div class="return-link">
+    <div class="return-link">
             <a href="index.php">Return to Main Page</a>
         </div>
     </div>
