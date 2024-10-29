@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single-dimensional Array</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+       body {
             font: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
@@ -38,7 +37,7 @@
         th, td {
             border: 1px solid #ccc;
             padding: 10px;
-            text-align: left;
+            text-align: center;
         }
         th {
             background-color: #f8f8f8;
@@ -49,7 +48,10 @@
             font-size: 0.9em;
         }
         .return-link {
+            display: block;
+            text-align: center;
             margin-top: 20px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -113,7 +115,7 @@
             ?>
     
 
-        <div class="return-link">
+     <div class="return-link">
             <a href="index.php">Return to Main Page</a>
         </div>
     </div>

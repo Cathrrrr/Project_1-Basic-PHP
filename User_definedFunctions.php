@@ -29,11 +29,16 @@
             text-align: center;
         }
         .return-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            font-weight: bold;
-        }
+    text-align: center;
+    margin-top: 20px; /* Optional: Adds space above the link */
+    }
+
+    .return-link a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold; 
+    }
+
     </style>
 </head>
 <body>
@@ -145,7 +150,7 @@
         echo "<p>10. <b>findMinValue</b>: Finds the smallest number in the array.</p>";
         echo "</div>";
         ?>
-   <div class="return-link">
+   <div class="return-link" >
             <a href="index.php">Return to Main Page</a>
         </div>
     <footer>
