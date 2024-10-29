@@ -24,9 +24,19 @@
             padding: 15px;
             margin: 10px 0;
         }
-        footer {
-            margin-top: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
             text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
         }
         .return-link {
             display: block;
@@ -39,42 +49,41 @@
 <body>
     <div class="content-box">
         <h2>Loop Statements</h2>
+
         <?php
         // Declare variables n and m
-        $n = 5; // Example value for n
-        $m = 3; // Example value for m
+        $n = 10; // Example value for n
+        $m = 10; // Example value for m
 
         // Display n x m multiplication table using for loop
-        echo "<div class='panel'><h3>Multiplication Table of $n x $m:</h3><p>";
+        echo "<div class='panel'><h3>Multiplication Table of $n x $m:</h3>";
+        echo "<table>";
+        
+        // Table header row
+        echo "<tr><th>*</th>";
+        for ($j = 1; $j <= $m; $j++) {
+            echo "<th>$j</th>";
+        }
+        echo "</tr>";
+
+        // Table rows for each multiplication line
         for ($i = 1; $i <= $n; $i++) {
+            echo "<tr><th>$i</th>"; // Row header
             for ($j = 1; $j <= $m; $j++) {
                 $result = $i * $j;
-                echo "$i x $j = $result<br>";
+                echo "<td>$result</td>";
             }
-            echo "<br>";
+            echo "</tr>";
         }
-        echo "</p></div>";
+        echo "</table></div>";
 
+        // Other calculations (Fibonacci, factorial, etc.) remain the same
         // Display n Fibonacci series using while loop
         echo "<div class='panel'><h3>Fibonacci Series up to $n terms:</h3><p>";
         $a = 0;
         $b = 1;
         $count = 0;
         while ($count < $n) {
-            echo $a . " ";
-            $next = $a + $b;
-            $a = $b;
-            $b = $next;
-            $count++;
-        }
-        echo "</p></div>";
-
-        // Display m Fibonacci series using while loop
-        echo "<div class='panel'><h3>Fibonacci Series up to $m terms:</h3><p>";
-        $a = 0;
-        $b = 1;
-        $count = 0;
-        while ($count < $m) {
             echo $a . " ";
             $next = $a + $b;
             $a = $b;
@@ -101,9 +110,11 @@
         } while ($i <= $m);
         echo "<div class='panel'><h3>Summation of numbers up to $m:</h3><p>Summation = $summation</p></div>";
         ?>
+
         <div class="return-link">
             <a href="index.php">Return to Main Page</a>
         </div>
+
     <footer>
         <p>
             Created by Catherine A. Rotairo
