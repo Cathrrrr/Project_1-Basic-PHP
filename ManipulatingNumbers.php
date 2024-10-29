@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User-defined Functions</title>
+    <title>Manipulating Numbers</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -38,7 +38,7 @@
 </head>
 <body>
     <div class="content-box">
-        <h2>User-defined Functions</h2>
+        <h2>Manipulating Numbers</h2>
         <p>Problem: Perform various basic statistical calculations on a given set of numbers using at least ten user-defined functions.</p>
         
         <?php

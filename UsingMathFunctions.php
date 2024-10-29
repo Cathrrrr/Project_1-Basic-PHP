@@ -34,7 +34,7 @@
 </head>
 <body>
     <div class="content-box">
-        <h2>Math Functions Demonstration</h2>
+        <h2>Using Math Functions</h2>
         <div class="panel">
             <?php
                 // Declare five floating point numbers
