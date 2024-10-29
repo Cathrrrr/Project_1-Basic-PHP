@@ -8,7 +8,7 @@
     
 </head>
 <body>
-    <div class="content-box">
+    <div class="content-box" style="text-align: left;">
         <h3>Name: <u>ROTAIRO, CATHERINE A.</u></h3>
         <h3>Course/Yr/Section: <u>BSIS/3/B</u></h3>
 

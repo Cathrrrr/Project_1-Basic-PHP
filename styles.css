@@ -21,7 +21,7 @@ body {
     border: 2px solid #d4b59e; /* Border with a muted brown tone */
     border-radius: 12px; /* Rounded corners for a softer look */
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    text-align: Left; /* Centered text alignment */
+    text-align: Center; /* Centered text alignment */
 }
 
 /* Styling for headings */
