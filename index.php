@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="content-box">
-        <h3>Your name: <u>ROTAIRO, CATHERINE A.</u></h3>
+        <h3>Name: <u>ROTAIRO, CATHERINE A.</u></h3>
         <h3>Course/Yr/Section: <u>BSIS/3/B</u></h3>
 
         <ol>
