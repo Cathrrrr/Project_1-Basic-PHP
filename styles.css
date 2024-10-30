@@ -40,24 +40,27 @@ h3 {
     margin: 0 0 15px 0;
     color: #4b2e1a; /* Dark brown heading color */
 }
+
 ol {
     padding-left: 20px;
     color: #4b2e1a; /* Dark brown for list items */
     text-align: left; /* Align list to the left */
 }
+
 ol li {
     margin-bottom: 10px;
-    background-color: #fff8f0; 
-    border: 2px solid #d4b59e;
-    border-radius: 12px; 
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); 
-    text-align: Center; 
+    /* Remove background, border, and shadow for a simpler appearance */
+    background-color: transparent; 
+    border: none;
+    border-radius: 0; 
+    box-shadow: none; 
+    text-align: left; /* Align text to the left inside list items */
 }
+
 a {
     color: #8b5e3c; /* Medium brown for links */
     text-decoration: none;
     font-weight: bold;
-    
 }
 
 a:hover {
@@ -70,6 +73,7 @@ h3 u {
     text-decoration: underline;
     text-decoration-color: #d4b59e; /* Underline color matching the border */
 }
+
 .return-link {
     text-align: center;
     margin-top: 30px; 
@@ -81,11 +85,10 @@ h3 u {
     font-weight: bold;
 }
 
-img 
-{
-        max-width: 100%; 
-        height: auto; 
-        border-radius: 10px; 
-        display: block; 
-        margin: 20px auto; 
+img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    display: block; 
+    margin: 20px auto; 
 }
