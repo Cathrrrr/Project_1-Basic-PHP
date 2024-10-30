@@ -24,20 +24,6 @@
             padding: 15px;
             margin: 10px 0;
         }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .return-link {
-    text-align: center;
-    margin-top: 20px; /* Optional: Adds space above the link */
-    }
-
-    .return-link a {
-    text-decoration: none;
-    color: #000; 
-    font-weight: bold; 
-    }
 
     </style>
 </head>

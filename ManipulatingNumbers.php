@@ -6,17 +6,7 @@
     <title>Manipulating Numbers</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 20px;
-        }
-        .content-box {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+      
         .panel {
             border: 1px solid #d4b59e;
             border-radius: 12px;
@@ -24,31 +14,19 @@
             padding: 15px;
             margin: 10px 0;
         }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .return-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
         <div class="content-box">
             <h2>Manipulating Numbers</h2>
-
+            
         <?php
-            // Predetermined grades for midterm
             $quiz1 = 1.75;
             $quiz2 = 1.80;
             $quiz3 = 1.70;
             $project1 = 1.65;
             $midterm_exam = 1.79;
 
-            // Predetermined grades for tentative final
             $quiz4 = 1.85;
             $quiz5 = 1.80;
             $project2 = 1.15;
@@ -67,7 +45,7 @@
             // Final grade calculation
             $final_final_grade = ($midterm_grade + $final_grade) / 2;
 
-            // Display results
+            // Results
             echo "<div class='panel'>";
             echo "<h4>Midterm Grade Calculation</h4>";
             echo "<p>Average Quiz Grade: " . number_format($avg_quizzes_midterm, 2) . "</p>";
@@ -90,8 +68,7 @@
             echo "</div>";
         ?>
 
-        <!-- "Return to Main Page" link -->
-        <div class="return-link">
+<div class="return-link">
             <a href="index.php">Return to Main Page</a>
         </div>
     </div>

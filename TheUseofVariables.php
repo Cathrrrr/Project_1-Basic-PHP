@@ -6,15 +6,14 @@
     <title>The Use of Variables</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Styling for the panels */
         .panel {
-            border: 2px solid #d4b59e; /* Keep the existing border */
-            border-radius: 12px; /* Rounded corners */
-            background-color: #D2B48C; /* Light brown color */
-            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-            padding: 15px; /* Padding inside the panel */
-            margin: 10px 0; /* Margin between panels */
-            text-align: left; /* Left-align text */
+            border: 2px solid #d4b59e; 
+            border-radius: 12px; 
+            background-color: #D2B48C; 
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); 
+            padding: 15px; 
+            margin: 10px 0; 
+            text-align: left; 
         }
     </style>
 </head>

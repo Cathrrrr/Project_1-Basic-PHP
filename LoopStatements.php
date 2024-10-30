@@ -6,17 +6,6 @@
     <title>Loop Statements</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 20px;
-        }
-        .content-box {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
         .panel {
             border: 1px solid #d4b59e;
             border-radius: 12px;
@@ -35,14 +24,8 @@
             text-align: center;
         }
         th {
-            background-color: #4CAF50;
+            background-color: #4b2e1a;
             color: white;
-        }
-        .return-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            font-weight: bold;
         }
     </style>
 </head>
@@ -51,24 +34,20 @@
         <h2>Loop Statements</h2>
 
         <?php
-        // Declare variables n and m
-        $n = 10; // Example value for n
-        $m = 10; // Example value for m
+        $n = 10; 
+        $m = 10; 
 
-        // Display n x m multiplication table using for loop
         echo "<div class='panel'><h3>Multiplication Table of $n x $m:</h3>";
         echo "<table>";
         
-        // Table header row
         echo "<tr><th>*</th>";
         for ($j = 1; $j <= $m; $j++) {
             echo "<th>$j</th>";
         }
         echo "</tr>";
 
-        // Table rows for each multiplication line
         for ($i = 1; $i <= $n; $i++) {
-            echo "<tr><th>$i</th>"; // Row header
+            echo "<tr><th>$i</th>";
             for ($j = 1; $j <= $m; $j++) {
                 $result = $i * $j;
                 echo "<td>$result</td>";
@@ -76,9 +55,6 @@
             echo "</tr>";
         }
         echo "</table></div>";
-
-        // Other calculations (Fibonacci, factorial, etc.) remain the same
-        // Display n Fibonacci series using while loop
         echo "<div class='panel'><h3>Fibonacci Series up to $n terms:</h3><p>";
         $a = 0;
         $b = 1;
@@ -92,7 +68,6 @@
         }
         echo "</p></div>";
 
-        // Compute the factorial of n using do...while loop
         $factorial = 1;
         $i = $n;
         do {
@@ -101,7 +76,6 @@
         } while ($i > 0);
         echo "<div class='panel'><h3>Factorial of $n:</h3><p>$n! = $factorial</p></div>";
 
-        // Compute the summation of m using do...while loop
         $summation = 0;
         $i = 1;
         do {

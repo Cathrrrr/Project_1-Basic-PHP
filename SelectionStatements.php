@@ -6,17 +6,6 @@
     <title>Selection Statements</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 20px;
-        }
-        .content-box {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
         .panel {
             border: 1px solid #d4b59e;
             border-radius: 12px;
@@ -30,13 +19,10 @@
     <div class="content-box">
         <h2>Selection Statements</h2>
         <?php
-        // Initialize five string variables
         $strings = ["Apple", "Banana", "Orange", "Grape", "Mango"];
 
-        // Initialize five integer variables
         $numbers = [12, 7, 5, 3, 15];
 
-        // Manual bubble sort for strings in ascending order
         for ($i = 0; $i < count($strings) - 1; $i++) {
             for ($j = 0; $j < count($strings) - $i - 1; $j++) {
                 if ($strings[$j] > $strings[$j + 1]) {
@@ -47,14 +33,12 @@
             }
         }
 
-        // Display sorted strings in ascending order
         echo "<div class='panel'><h3>Strings in Ascending Order:</h3><p>";
         foreach ($strings as $string) {
             echo $string . " ";
         }
         echo "</p></div>";
 
-        // Manual bubble sort for strings in descending order
         for ($i = 0; $i < count($strings) - 1; $i++) {
             for ($j = 0; $j < count($strings) - $i - 1; $j++) {
                 if ($strings[$j] < $strings[$j + 1]) {
@@ -72,7 +56,6 @@
         }
         echo "</p></div>";
 
-        // Check if the first number is divisible by the fifth number
         if ($numbers[0] % $numbers[4] == 0) {
             $sum = array_sum($numbers);
             $product = 1;
@@ -104,10 +87,9 @@
             foreach ($numbers as $number) {
                 echo $number . " ";
             }
-            echo "</p></div>"; // Close the numbers panel
+            echo "</p></div>"; 
         }
         ?>
-        <!-- "Return to Main Page" link outside the panels -->
         <a href='index.php'>Return to Main Page</a>
     </div>
     <footer>

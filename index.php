@@ -25,7 +25,6 @@
             <li><a href="Two_dimensionalArray.php">Two-dimensional Array</a></li>
         </ol>
     </div>
-    <!-- footer.php -->
 <footer>
 <p>
         Created by Catherine A. Rotairo

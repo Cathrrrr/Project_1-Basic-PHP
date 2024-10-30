@@ -6,18 +6,6 @@
     <title>Using Math Functions</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .content-box {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
         .panel {
             border: 1px solid #d4b59e;
             border-radius: 12px;
@@ -26,9 +14,6 @@
             padding: 15px;
             margin: 10px 0;
             text-align: left;
-        }
-        h2 {
-            color: #4b2e1a;
         }
     </style>
 </head>

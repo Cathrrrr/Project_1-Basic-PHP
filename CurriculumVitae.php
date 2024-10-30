@@ -5,19 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .content-box {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    <style>  
         .panel {
             border: 1px solid #d4b59e;
             border-radius: 12px;
@@ -26,30 +14,6 @@
             padding: 15px;
             margin: 10px 0;
             text-align: left;
-        }
-        h2 {
-            color: #4b2e1a;
-        }
-        .center {
-            text-align: center;
-            margin: 20px 0;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .return-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            font-weight: bold;
-        }
-        .return-link a {
-            text-decoration: none;
-            color: #4b2e1a;
-        }
-        .return-link a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -106,12 +70,12 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- Closing .panel -->
+        </div> 
         
         <div class="return-link">
             <a href="index.php">Return to Main Page</a>
         </div>
-    </div> <!-- Closing .content-box -->
+    </div> 
     <footer>
         <p>
             Created by Catherine A. Rotairo

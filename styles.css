@@ -2,113 +2,55 @@ body {
     font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light beige background for a warm feel */
-    background-image: url('images/photo1.png'); /* Path to your background image */
-    background-size: cover, contain; /* Cover the entire viewport */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the background from repeating */
-    color: #4b2e1a; /* Dark brown text color */
-    min-height: 100vh; /* Ensure body takes at least 100% of the viewport height */
-    height: auto; /* Allow the height to adjust based on content */
+    background-color: #f4f4f4;
+    background-image: url('images/photo1.png'); 
+    background-size: cover, contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #4b2e1a;
+    min-height: 100vh;
+    height: auto;
 }
-/* Styling for the content box */
+
 .content-box {
     width: 60%;
     margin: 50px auto;
     padding: 30px;
     position: center;
-    background-color: #fff8f0; /* Light cream background for the content box */
-    border: 2px solid #d4b59e; /* Border with a muted brown tone */
-    border-radius: 12px; /* Rounded corners for a softer look */
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    text-align: Center; /* Centered text alignment */
+    background-color: #fff8f0; 
+    border: 2px solid #d4b59e;
+    border-radius: 12px; 
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); 
+    text-align: Center; 
 }
 
-/* Styling for headings */
-h3 {
-    margin: 0 0 15px 0;
-    color: #4b2e1a; /* Dark brown heading color */
-}
-
-/* Styling for the ordered list */
-ol {
-    padding-left: 20px;
-    color: #4b2e1a; /* Dark brown for list items */
-    text-align: left; /* Align list to the left */
-}
-
-/* Styling for list items */
-ol li {
-    margin-bottom: 10px;
-}
-
-/* Footer styling */
 footer {
-    position: fixed; /* Fix the footer at the bottom */
+    position: fixed; 
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #4b2e1a; /* Dark brown footer background */
-    color: white; /* White text color for contrast */
-    text-align: center; /* Center text */
-    padding: 10px 0; /* Padding for the footer */
-    z-index: 1000; /* Ensure the footer is above other content */
+    background-color: #4b2e1a; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    z-index: 500;
+}
+.return-link {
+    text-align: center;
+    margin-top: 30px; 
+    color: #4b2e1a;
+    font-weight: bold; 
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 img 
 {
-        max-width: 100%; /* Allow the image to resize according to the container */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 10px; /* Optional: Rounded corners */
-        display: block; /* Ensures the image is a block element */
-        margin: 20px auto; /* Centers the image horizontally */
-}
-
-
-a {
-    color: #8b5e3c; /* Medium brown for links */
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
-a:hover {
-    color: #5a3b28; /* Darker brown when hovering over the link */
-    text-decoration: underline;
-}
-
-/* Add a stylish underline for h3 elements */
-h3 u {
-    text-decoration: underline;
-    text-decoration-color: #d4b59e; /* Underline color matching the border */
-}
-
-/* Styling for buttons (if used) */
-button {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #4b2e1a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition */
-}
-
-button:hover {
-    background-color: #5a3b28; /* Darker brown on hover */
-}
-
-button:focus {
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add custom focus shadow */
-}
-
-.score-input {
-    margin: 5px 0;
-    padding: 10px;               /* Add padding for comfort */
-    border: 1px solid #ccc;      /* Light gray border */
-    border-radius: 5px;          /* Rounded corners */
-    width: calc(100% - 22px);    /* Full width minus padding */
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+        display: block; 
+        margin: 20px auto; 
 }
