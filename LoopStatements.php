@@ -24,7 +24,7 @@
             text-align: center;
         }
         th {
-            background-color: #D2B48C;
+            background-color: #4b2e1a;
             color: white;
         }
     </style>
